@@ -6,12 +6,15 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #ffffff;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 /* Players */ 
@@ -76,4 +79,25 @@ hr{
     color: #562EFF;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Courses */
+.course .course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 10px;
+}
+.fa-star.filled{
+    color: #FFC014;
+    fon
+}
+.fa-star.empty{
+    color:#AEAEAE;
 }
